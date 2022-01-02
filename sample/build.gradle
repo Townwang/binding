@@ -5,7 +5,7 @@ android {
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
     defaultConfig {
-        applicationId "com.townwang.sampledemo"
+        applicationId "com.townwang.sample"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -30,9 +30,9 @@ android {
 }
 
 dependencies {
-
-    implementation 'com.github.Townwang:binding:v1.0.5'
-    implementation 'com.townwang:wechat:1.0.8'
+//
+//    implementation 'com.github.Townwang:binding:v1.0.5'
+//    implementation 'com.townwang:wechat:1.0.8'
     implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'

@@ -1,1 +1,1 @@
-include ':sample', ':binding'
+include ':binding'
