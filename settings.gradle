@@ -6,5 +6,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "binding"
-include ':sample'
 include ':binding'
