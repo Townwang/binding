@@ -1,16 +1,16 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android'
-
 android {
-    compileSdkVersion 30
-    buildFeatures {
-        dataBinding = true
-        viewBinding = true
-    }
+    compileSdkVersion 31
     buildTypes.all {
         minifyEnabled true
         zipAlignEnabled true
         proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+    buildFeatures {
+        viewBinding true
+        dataBinding true
     }
 }
 
