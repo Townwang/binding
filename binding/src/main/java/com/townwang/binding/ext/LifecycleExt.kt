@@ -6,6 +6,7 @@ import android.app.Application
 import android.app.Fragment
 import android.os.Build
 import android.os.Bundle
+import androidx.annotation.RequiresApi
 import androidx.lifecycle.BindingLifecycleObserver
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
@@ -46,6 +47,7 @@ fun Activity.observerWhenDestroyed(destroyed: () -> Unit) {
     }
 }
 
+@RequiresApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 class LifecycleCallbacks(var destroyed: (() -> Unit)? = null) :
     Application.ActivityLifecycleCallbacks {
     override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
@@ -75,6 +77,7 @@ class LifecycleCallbacks(var destroyed: (() -> Unit)? = null) :
     }
 }
 
+@RequiresApi(Build.VERSION_CODES.HONEYCOMB)
 class LifecycleFragment : Fragment {
     var destroyed: (() -> Unit)? = null
 
