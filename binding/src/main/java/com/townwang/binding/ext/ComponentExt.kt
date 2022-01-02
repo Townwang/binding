@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
-import com.hi.dhl.binding.viewbind.*
+import com.townwang.binding.viewbind.*
 import com.townwang.binding.databind.*
 
 

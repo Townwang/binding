@@ -3,8 +3,8 @@ package com.townwang.binding.databind
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
-import com.hi.dhl.binding.inflateMethod
 import com.townwang.binding.base.FragmentDelegate
+import com.townwang.binding.ext.inflateMethod
 import kotlin.reflect.KProperty
 
 

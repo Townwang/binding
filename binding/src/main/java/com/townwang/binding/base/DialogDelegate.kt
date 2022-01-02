@@ -3,7 +3,7 @@ package com.townwang.binding.base
 import android.app.Dialog
 import androidx.lifecycle.Lifecycle
 import androidx.viewbinding.ViewBinding
-import com.hi.dhl.binding.observerWhenDestroyed
+import com.townwang.binding.ext.observerWhenDestroyed
 import kotlin.properties.ReadOnlyProperty
 
 abstract class DialogDelegate<T : ViewBinding>(

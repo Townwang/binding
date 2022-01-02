@@ -2,8 +2,8 @@ package com.townwang.binding.base
 
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
-import com.hi.dhl.binding.observerWhenCreated
-import com.hi.dhl.binding.observerWhenDestroyed
+import com.townwang.binding.ext.observerWhenCreated
+import com.townwang.binding.ext.observerWhenDestroyed
 import kotlin.properties.ReadOnlyProperty
 
 
